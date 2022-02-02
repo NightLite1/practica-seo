@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn-register, .btn-index, .btn-home{
+    padding: 1% 5% 1% 5%;
+    background: yellowgreen;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
