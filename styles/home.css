@@ -7,27 +7,6 @@ body{
     color: antiquewhite;
     background: rgb(20, 11, 0);
 }
-.team-info{
-    justify-content: space-around;
-    display: flex;
-    margin: 2%;
-}
-.sub-title{
-    width: 20%;
-}
-img{width: 220px; height: 300px;}
-.team{
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(3,300px);
-}
-.titles{
-    writing-mode: vertical-lr;
-    height: 300px;
-}
-.left-rigth, .center-img{
-    width: 250px;
-}
 ul, a{
     list-style: none;
     text-decoration: none;
@@ -65,5 +44,12 @@ a::after{
     transition: width 0.3s;
 }
 a:hover::after{
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+center{
+    height: 450px;
     width: 100%;
 }
